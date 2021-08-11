@@ -1,8 +1,14 @@
 html body {
-  max-width: 960px;
+  max-width: 1020px;
   margin: auto;
   font-family: "Lora", serif;
-  padding: 8%;
+}
+html body .container {
+  margin: 24px;
+}
+html body .container img {
+  width: 100%;
+  box-shadow: 0 0 10px 10px rgba(221, 221, 221, 0.514);
 }
 html body .container__content {
   margin: 40px 0;
@@ -24,8 +30,26 @@ html body .container__form__party {
   display: flex;
   justify-content: space-between;
 }
-html body .container__form__party p {
-  width: max-content;
+html body .container__form__party input {
+  width: 45%;
+}
+@media only screen and (max-width: 600px) {
+  html body .container__form__party input {
+    width: auto;
+  }
+}
+html body .container__form__party div {
+  width: 45%;
+}
+@media only screen and (max-width: 600px) {
+  html body .container__form__party div {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  html body .container__form__party {
+    flex-direction: column;
+  }
 }
 html body .container__form .rsvp-form {
   display: flex;
@@ -39,8 +63,22 @@ html body .container__form .rsvp-form input {
   padding: 8px;
 }
 html body .container__form .rsvp-form button {
+  font-family: "Lora", serif;
   padding: 16px 0;
-  margin: 16px 0;
+  margin: 24px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html body .container__form .rsvp-form button img {
+  margin-left: 8px;
+  height: 16px;
+  width: 16px;
+}
+@media only screen and (max-width: 600px) {
+  html body .container__form .rsvp-form {
+    width: 90%;
+  }
 }
 html body .container__form p {
   text-align: center;
@@ -52,7 +90,8 @@ html body .container__form .link-donate {
   height: max-content;
   border: 1px solid darkgray;
   border-radius: 5px;
-  padding: 8px;
+  padding: 16px 0;
+  margin: 16px 0;
   background-color: white;
   color: black;
   text-decoration: none;
@@ -64,6 +103,28 @@ html body .container__form .link-donate:hover {
   background-color: lavender;
   text-decoration: none;
   color: black;
+}
+@media only screen and (max-width: 600px) {
+  html body .container__form .link-donate {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  html body .container__form {
+    flex-direction: column;
+  }
+}
+html body .footnote {
+  color: #535353;
+}
+html footer {
+  margin-top: 40px;
+  border-top: 1px solid darkgray;
+}
+html footer .copyright {
+  text-align: center;
+  font-size: 12px;
+  color: darkgray;
 }
 
 /*# sourceMappingURL=style.css.map */
