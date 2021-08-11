@@ -1,3 +1,69 @@
-
+html body {
+  max-width: 960px;
+  margin: auto;
+  font-family: "Lora", serif;
+  padding: 8%;
+}
+html body .container__content {
+  margin: 40px 0;
+}
+html body .container__content p {
+  line-height: 32px;
+}
+html body .container__form {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid darkgray;
+  box-shadow: 0 0 5px 5px rgba(221, 221, 221, 0.514);
+  border-radius: 5px;
+  padding: 24px 32px;
+}
+html body .container__form__party {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+html body .container__form__party p {
+  width: max-content;
+}
+html body .container__form .rsvp-form {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+html body .container__form .rsvp-form label {
+  padding: 16px 0 8px 0;
+}
+html body .container__form .rsvp-form input {
+  padding: 8px;
+}
+html body .container__form .rsvp-form button {
+  padding: 16px 0;
+  margin: 16px 0;
+}
+html body .container__form p {
+  text-align: center;
+  width: 10%;
+}
+html body .container__form .link-donate {
+  width: 45%;
+  text-align: center;
+  height: max-content;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+html body .container__form .link-donate:active {
+  color: black;
+}
+html body .container__form .link-donate:hover {
+  background-color: lavender;
+  text-decoration: none;
+  color: black;
+}
 
 /*# sourceMappingURL=style.css.map */
