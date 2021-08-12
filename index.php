@@ -35,9 +35,9 @@
                 <label for="party">Number of Guest(s)</label>
                 <div class="container__form__party">
                     <input id="party" name="party" type="number" required>
-                    <div>Donation* per person: $100.00</div>
+                    <div id="total" class="price">Donation* per person: $100.00</div>
                 </div>
-                <button>Submit and Donate via<img class="paypal-logo" src="assets/paypal-brands.svg" alt="paypal"></button>
+                <button id="submit-btn">Submit and Donate via<img class="paypal-logo" src="assets/paypal-brands.svg" alt="paypal"></button>
             </form>
             <p>- or -</p>
             <a class="link-donate" href="https://paypal.com/us/fundraiser/charity/1263109" target="_blank">I just want to donate</a>

@@ -38,6 +38,7 @@ html {
                     width: 100%;
                     display: flex;
                     justify-content: space-between;
+                    align-items: center;
 
                     input {
                         width: 45%;
@@ -47,8 +48,9 @@ html {
                         }
                     }
 
-                    div {
+                    .price {
                         width: 45%;
+                        font-size: 12px;
 
                         @media only screen and (max-width: 600px) {
                             width: auto;

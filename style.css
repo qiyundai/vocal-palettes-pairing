@@ -33,6 +33,7 @@ html body .container__form__party {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 html body .container__form__party input {
   width: 45%;
@@ -42,11 +43,12 @@ html body .container__form__party input {
     width: auto;
   }
 }
-html body .container__form__party div {
+html body .container__form__party .price {
   width: 45%;
+  font-size: 12px;
 }
 @media only screen and (max-width: 600px) {
-  html body .container__form__party div {
+  html body .container__form__party .price {
     width: auto;
   }
 }
