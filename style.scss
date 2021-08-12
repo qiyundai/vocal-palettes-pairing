@@ -7,13 +7,18 @@ html {
         .container {
             margin: 24px;
 
-            img {
+            .poster {
                 width: 100%;
                 box-shadow: 0 0 10px 10px rgba(221, 221, 221, 0.514);
             }
 
             &__content {
                 margin: 40px 0;
+                
+                h1 {
+                    border-top: 1px solid darkgray;
+                    padding-top: 24px;
+                }
 
                 p {
                     line-height: 32px;
@@ -69,14 +74,27 @@ html {
                     }
     
                     button {
+                        background-color: #a03469;
+                        border: 1px solid #a03469;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        font-weight: 700;
                         font-family: 'Lora', serif;
                         padding: 16px 0;
                         margin: 24px 0;
                         display: flex;
                         justify-content: center;
                         align-items: center;
+                        transition: background-color 0.2s, color 0.2s;
+                        color: white;
+
+                        &:hover {
+                            background-color: white;
+                            border: 1px solid #a03469;
+                            color: #a03469;
+                        }
                         
-                        img {
+                        .paypal-logo {
                             margin-left: 8px;
                             height: 16px;
                             width: 16px;
@@ -90,29 +108,31 @@ html {
     
                 p {
                     text-align: center;
-                    width: 10%;
+                    width: max-content;
                 }
     
                 .link-donate {
+                    font-weight: 700;
                     width: 45%;
                     text-align: center;
                     height: max-content;
-                    border: 1px solid darkgray;
+                    border: 1px solid #a03469;
                     border-radius: 5px;;
                     padding: 16px 0;
                     margin: 16px 0;
                     background-color: white;
-                    color: black;
+                    color: #a03469;
                     text-decoration: none;
+                    transition: background-color 0.2s, color 0.2s;
     
                     &:active {
                         color: black;
                     }
     
                     &:hover {
-                        background-color: lavender;
-                        text-decoration: none;
-                        color: black;
+                        background-color: #a03469;
+                        border: 1px solid #a03469;
+                        color: white;
                     }
 
                     @media only screen and (max-width: 600px) {

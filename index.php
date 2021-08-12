@@ -14,7 +14,7 @@
 <body>
     <div class="container">
         <div class="container__content">
-            <img src="./assets/poster.png" alt="">
+            <img class="poster" src="./assets/poster.png" alt="">
             <h1 class="title">Petite Opera Presents Vocal Palettes & Pairings</h1>
             <p>
                 Join Petite Opera for this fabulous event that educates your palate, expands your musical palette and engages all of your senses over the course of one afternoon.
@@ -25,7 +25,7 @@
             </p>
         </div>
         <div class="container__form">
-            <form class="rsvp-form" action="">
+            <form class="rsvp-form" action="donation.php" method="POST">
                 <label for="name">Full Name</label>
                 <input id="name" name="name" type="text" required>
                 <label for="phone">Phone Number</label>
@@ -37,7 +37,7 @@
                     <input id="party" name="party" type="number" required>
                     <div>Donation* per person: $100.00</div>
                 </div>
-                <button>Submit and Donate via<img src="assets/paypal-brands.svg" alt="paypal"></button>
+                <button>Submit and Donate via<img class="paypal-logo" src="assets/paypal-brands.svg" alt="paypal"></button>
             </form>
             <p>- or -</p>
             <a class="link-donate" href="https://paypal.com/us/fundraiser/charity/1263109" target="_blank">I just want to donate</a>
