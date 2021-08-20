@@ -20,7 +20,7 @@
                 Join Petite Opera for this fabulous event that educates your palate, expands your musical palette and engages all of your senses over the course of one afternoon.
             </p>
             <p>
-                Only 50 seats available. <strong> Reservations for attendance accepted through August 26.</strong><br>
+                Only 50 seats available. <strong> Reservations for attendance accepted through September 3rd 6:00AM.</strong><br>
                 If you cannot attend, please consider donating!
             </p>
         </div>
